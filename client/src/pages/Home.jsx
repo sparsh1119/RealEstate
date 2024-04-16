@@ -11,7 +11,7 @@ import "swiper/css/free-mode";
 import ListingItem from "../components/ListingItem";
 import Image1 from "../assets/Propify_trans.png";
 import Banner1 from "../assets/Banner1.gif";
-import Banner2 from "../assets/Banner2"; 
+import Banner2 from "../assets/Banner2.png"; 
 import Banner3 from "../assets/Banner3.jpg";  
 import Banner4 from "../assets/Banner4.png";  
 import Banner5 from "../assets/Banner5.png";  
