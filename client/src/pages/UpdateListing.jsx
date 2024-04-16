@@ -366,7 +366,7 @@ export default function UpdateListing() {
                 <button
                   type='button'
                   onClick={() => handleRemoveImage(index)}
-                  className='p-3 text-red-700 rounded-lg uppercase hover:opacity-75'
+                  className='text-white bg-red-700 p-2 hover:opacity-90 rounded-md uppercase'
                 >
                   Delete
                 </button>

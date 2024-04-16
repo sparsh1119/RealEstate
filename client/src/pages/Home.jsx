@@ -11,8 +11,10 @@ import "swiper/css/free-mode";
 import ListingItem from "../components/ListingItem";
 import Image1 from "../assets/Propify_trans.png";
 import Banner1 from "../assets/Banner1.gif";
-import Banner2 from "../assets/banner2.jpg"; 
-import Banner3 from "../assets/banner3.jpg"; 
+import Banner2 from "../assets/Banner2.jpg"; 
+import Banner3 from "../assets/Banner3.jpg";  
+import Banner4 from "../assets/Banner4.png";  
+import Banner5 from "../assets/Banner5.png";  
 import { FaArrowRight } from "react-icons/fa";
 import FeedbackCards from "../components/FeedbackCards";
 import Footer from "../components/Footer";
@@ -107,16 +109,16 @@ export default function Home() {
           <img className="h-[600px] w-full " src={Banner1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="h-[600px] w-full " src={Banner2} alt="" />
+          <img className="h-[600px] w-full " src={Banner4} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="h-[600px] w-full " src={Banner5} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img className="h-[600px] w-full " src={Banner3} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="h-[600px] w-full " src={Banner1} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img className="h-[600px] w-full " src={Banner1} alt="" />
+          <img className="h-[600px] w-full " src={Banner2} alt="" />
         </SwiperSlide>
       </Swiper>
 
